@@ -166,9 +166,9 @@ export default class ReactAddToCalendar extends React.Component {
 
     return (
       <div className={this.props.buttonWrapperClass}>
-        <a className={buttonClass} onClick={this.toggleCalendarDropdown}>
+        <button className={buttonClass} onClick={this.toggleCalendarDropdown}>
           {buttonLabel}
-        </a>
+        </button>
       </div>
     );
   }
